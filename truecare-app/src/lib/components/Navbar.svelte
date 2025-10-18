@@ -29,9 +29,11 @@
     <div class="flex justify-between items-center py-4">
       <!-- Logo -->
       <a href="/" class="flex items-center space-x-3">
-        <div class="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-xl">
-          254
-        </div>
+        <img 
+          src="/SACCOLOGO.png" 
+          alt="254TrueCare SACCO Logo" 
+          class="h-12 w-auto"
+        />
         <div class="hidden md:block">
           <div class="text-xl font-bold text-gray-900">254TrueCare</div>
           <div class="text-xs text-primary">SACCO Society</div>
