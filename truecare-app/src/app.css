@@ -1,3 +1,88 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+:root {
+  --primary: #106EBE;
+  --primary-dark: #0D5A9E;
+  --secondary: #0FFCBE;
+  --secondary-dark: #0CD9A3;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif;
+}
+
+/* Your component styles */
+.btn-primary {
+  @apply bg-[#106EBE] hover:bg-[#0D5A9E] text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-[#0FFCBE] hover:bg-[#0CD9A3] text-gray-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-xl;
+}
+
+.btn-outline {
+  @apply border-2 border-[#106EBE] text-[#106EBE] hover:bg-[#106EBE] hover:text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2;
+}
+
+.input-field {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#106EBE] focus:border-transparent transition-all duration-200;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-bold text-gray-900 mb-4;
+}
+
+.section-subtitle {
+  @apply text-xl text-gray-600 mb-12;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
