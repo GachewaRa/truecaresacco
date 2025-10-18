@@ -14,9 +14,11 @@
       <!-- About Column -->
       <div>
         <div class="flex items-center space-x-3 mb-4">
-          <div class="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center font-bold">
-            254
-          </div>
+          <img 
+            src="/SACCOLOGO.png" 
+            alt="254TrueCare SACCO Logo" 
+            class="h-10 w-auto"
+          />
           <div>
             <div class="font-bold text-lg">254TrueCare</div>
             <div class="text-xs text-secondary">SACCO Society</div>

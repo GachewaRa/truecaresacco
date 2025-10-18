@@ -1,8 +1,19 @@
 <script>
   export let testimonial;
+  let isHovered = false;
 </script>
 
-<div class="card p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+<div 
+  class="card p-6 bg-white rounded-lg transition-all duration-300"
+  style="
+    box-shadow: {isHovered 
+      ? '0 10px 15px -3px rgba(16, 110, 190, 1), 0 4px 6px -2px rgba(16, 110, 190, 0.05)'
+      : '0 4px 6px -1px rgba(16, 110, 190, 0.1), 0 2px 4px -1px rgba(16, 110, 190, 0.06)'
+    };
+  "
+  on:mouseenter={() => isHovered = true}
+  on:mouseleave={() => isHovered = false}
+>
   <!-- Rating Stars -->
   <div class="flex mb-4">
     {#each Array(testimonial.rating) as _}

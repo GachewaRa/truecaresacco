@@ -23,11 +23,22 @@ body {
 }
 
 .btn-outline {
-  @apply border-2 border-[#106EBE] text-[#106EBE] hover:bg-[#106EBE] hover:text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300;
+  @apply border-2 border-[#ebf0f5] text-[#106EBE] hover:bg-[#106EBE] hover:text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300;
 }
 
-.card {
+/* .card {
   @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2;
+} */
+
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-lg transition-all duration-300 transform hover:-translate-y-2;
+    box-shadow: 0 10px 15px -3px rgba(12, 217, 163, 0.1), 0 4px 6px -2px rgba(12, 217, 163, 0.05);
+  }
+  
+  .card:hover {
+    box-shadow: 0 25px 50px -12px rgba(12, 217, 163, 0.25);
+  }
 }
 
 .input-field {

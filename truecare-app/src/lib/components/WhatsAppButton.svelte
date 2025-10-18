@@ -1,5 +1,5 @@
 <script>
-  export let phoneNumber = "254700000000"; // Placeholder number
+  export let phoneNumber = "17609078558"; // Placeholder number
 </script>
 
 <a 

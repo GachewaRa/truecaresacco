@@ -88,45 +88,45 @@
 <section class="py-20 bg-gradient-to-br from-primary to-primary-dark text-white">
   <div class="container mx-auto px-4">
     <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-bold mb-4">Why Choose 254TrueCare SACCO?</h2>
-      <p class="text-xl text-blue-100">Building financial independence together</p>
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#106EBE]">Why Choose 254TrueCare SACCO?</h2>
+      <p class="text-xl text-[#106EBE]">Building financial independence together</p>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
         <div class="text-4xl mb-4">🔒</div>
-        <h3 class="text-xl font-bold mb-2">Secure & Regulated</h3>
-        <p class="text-blue-100">Licensed and regulated by SASRA for your peace of mind</p>
+        <h3 class="text-xl font-bold mb-2 text-[#0FFCBE]">Secure & Regulated</h3>
+        <p class="text-[#074736]">Licensed and regulated by SASRA for your peace of mind</p>
       </div>
       
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
         <div class="text-4xl mb-4">💎</div>
-        <h3 class="text-xl font-bold mb-2">Competitive Returns</h3>
-        <p class="text-blue-100">Enjoy attractive dividends and interest rates on your savings</p>
+        <h3 class="text-xl font-bold mb-2 text-[#0FFCBE]">Competitive Returns</h3>
+        <p class="text-[#074736]">Enjoy attractive dividends and interest rates on your savings</p>
       </div>
       
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
         <div class="text-4xl mb-4">🤝</div>
-        <h3 class="text-xl font-bold mb-2">Member-Focused</h3>
-        <p class="text-blue-100">Your success is our priority with personalized service</p>
+        <h3 class="text-xl font-bold mb-2 text-[#0FFCBE]">Member-Focused</h3>
+        <p class="text-[#074736]">Your success is our priority with personalized service</p>
       </div>
       
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
         <div class="text-4xl mb-4">📱</div>
-        <h3 class="text-xl font-bold mb-2">Digital Convenience</h3>
-        <p class="text-blue-100">Access your account anytime with our digital platforms</p>
+        <h3 class="text-xl font-bold mb-2 text-[#0FFCBE]">Digital Convenience</h3>
+        <p class="text-[#074736]">Access your account anytime with our digital platforms</p>
       </div>
       
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
         <div class="text-4xl mb-4">📚</div>
-        <h3 class="text-xl font-bold mb-2">Financial Education</h3>
-        <p class="text-blue-100">Continuous learning resources to improve your financial literacy</p>
+        <h3 class="text-xl font-bold mb-2 text-[#0FFCBE]">Financial Education</h3>
+        <p class="text-[#074736]">Continuous learning resources to improve your financial literacy</p>
       </div>
       
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
         <div class="text-4xl mb-4">⚡</div>
-        <h3 class="text-xl font-bold mb-2">Quick Processing</h3>
-        <p class="text-blue-100">Fast loan approvals and efficient service delivery</p>
+        <h3 class="text-xl font-bold mb-2 text-[#0FFCBE]">Quick Processing</h3>
+        <p class="text-[#074736]">Fast loan approvals and efficient service delivery</p>
       </div>
     </div>
   </div>
@@ -152,8 +152,8 @@
 <section class="py-20 bg-white">
   <div class="container mx-auto px-4">
     <div class="bg-gradient-to-r from-primary to-primary-dark rounded-2xl p-12 text-center text-white">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Start Your Journey?</h2>
-      <p class="text-xl mb-8 text-blue-100">Join thousands of members building their financial future with us</p>
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-[#0FFCBE]">Ready to Start Your Journey?</h2>
+      <p class="text-xl mb-8 text-[#106EBE]">Join thousands of members building their financial future with us</p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
         <a href="/membership" class="btn-secondary text-lg px-8 py-4">Become a Member</a>
         <a href="/contact" class="btn-outline border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">Contact Us</a>

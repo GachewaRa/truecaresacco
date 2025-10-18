@@ -99,7 +99,7 @@
     <div class="max-w-4xl mx-auto space-y-6">
       <div class="card p-6">
         <div class="flex items-start">
-          <div class="bg-primary text-white rounded-lg p-4 text-center mr-6 flex-shrink-0">
+          <div class="bg-primary text-gray-900 rounded-lg p-4 text-center mr-6 flex-shrink-0">
             <div class="text-3xl font-bold">15</div>
             <div class="text-sm">MAR</div>
           </div>
@@ -166,7 +166,7 @@
     <div class="max-w-3xl mx-auto text-center">
       <div class="text-6xl mb-6">📧</div>
       <h2 class="text-3xl md:text-4xl font-bold mb-4">Never Miss an Update</h2>
-      <p class="text-xl text-blue-100 mb-8">
+      <p class="text-xl text-[#106EBE] mb-8">
         Subscribe to our newsletter and get the latest news, tips, and exclusive offers delivered to your inbox.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">

@@ -1,52 +1,52 @@
 export const boardMembers = [
   {
     id: 1,
-    name: 'John Kamau',
+    name: 'Dennis Ombasa',
     position: 'Chairperson',
     bio: 'Experienced financial leader with over 20 years in cooperative management.',
-    image: '/placeholder-avatar.jpg'
+    image: '/'
   },
   {
     id: 2,
-    name: 'Mary Wanjiru',
+    name: 'Mary Wangeci',
     position: 'Vice Chairperson',
     bio: 'Dedicated professional with expertise in member relations and community development.',
-    image: '/placeholder-avatar.jpg'
+    image: '/MARYTHUO.png'
   },
   {
     id: 3,
-    name: 'Peter Omondi',
+    name: 'Dami Duro',
     position: 'Secretary',
     bio: 'Skilled administrator with strong background in SACCO operations and governance.',
     image: '/placeholder-avatar.jpg'
   },
-  {
-    id: 4,
-    name: 'Grace Akinyi',
-    position: 'Treasurer',
-    bio: 'Certified accountant with extensive experience in financial management.',
-    image: '/placeholder-avatar.jpg'
-  },
-  {
-    id: 5,
-    name: 'David Kipchoge',
-    position: 'Board Member',
-    bio: 'Business consultant passionate about member empowerment and financial inclusion.',
-    image: '/placeholder-avatar.jpg'
-  },
-  {
-    id: 6,
-    name: 'Susan Muthoni',
-    position: 'Board Member',
-    bio: 'Advocate for sustainable financial practices and community growth.',
-    image: '/placeholder-avatar.jpg'
-  }
+  // {
+  //   id: 4,
+  //   name: 'Grace Akinyi',
+  //   position: 'Treasurer',
+  //   bio: 'Certified accountant with extensive experience in financial management.',
+  //   image: '/placeholder-avatar.jpg'
+  // },
+  // {
+  //   id: 5,
+  //   name: 'David Kipchoge',
+  //   position: 'Board Member',
+  //   bio: 'Business consultant passionate about member empowerment and financial inclusion.',
+  //   image: '/placeholder-avatar.jpg'
+  // },
+  // {
+  //   id: 6,
+  //   name: 'Susan Muthoni',
+  //   position: 'Board Member',
+  //   bio: 'Advocate for sustainable financial practices and community growth.',
+  //   image: '/placeholder-avatar.jpg'
+  // }
 ];
 
 export const management = [
   {
     id: 1,
-    name: 'James Njoroge',
+    name: 'James Ondari',
     position: 'Chief Executive Officer',
     bio: 'Visionary leader driving innovation and excellence in SACCO operations.',
     image: '/placeholder-avatar.jpg'

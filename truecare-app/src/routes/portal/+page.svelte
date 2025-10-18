@@ -27,10 +27,12 @@
   <div class="max-w-md w-full">
     <!-- Logo and Header -->
     <div class="text-center mb-8">
-      <div class="inline-flex items-center space-x-3 mb-4">
-        <div class="w-16 h-16 bg-gradient-to-br from-secondary to-white rounded-xl flex items-center justify-center text-primary font-bold text-2xl shadow-xl">
-          254
-        </div>
+      <div class="mb-4">
+        <img 
+          src="/SACCOLOGO.png" 
+          alt="254TrueCare SACCO Logo" 
+          class="h-20 w-auto mx-auto"
+        />
       </div>
       <h1 class="text-3xl font-bold text-white mb-2">Member Portal</h1>
       <p class="text-blue-100">Sign in to access your account</p>

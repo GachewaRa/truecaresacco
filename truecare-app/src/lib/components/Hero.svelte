@@ -25,7 +25,7 @@
           <a href="/membership" class="btn-secondary text-lg px-8 py-4">
             Become a Member
           </a>
-          <a href="/products" class="btn-outline border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-4">
+          <a href="/products" class="btn-primary text-lg px-8 py-4">
             Explore Products
           </a>
         </div>

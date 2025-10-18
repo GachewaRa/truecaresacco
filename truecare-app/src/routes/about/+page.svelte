@@ -49,8 +49,8 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
       <div class="card p-8 bg-gradient-to-br from-primary to-primary-dark text-white">
         <div class="text-5xl mb-4">🎯</div>
-        <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
-        <p class="text-lg leading-relaxed text-blue-100">
+        <h2 class="text-3xl font-bold mb-4 text-gray-900">Our Mission</h2>
+        <p class="text-lg leading-relaxed text-gray-700">
           To empower individuals and families in Kenya by providing accessible, reliable, and tailored savings solutions that enable them to achieve their educational, land acquisition, business, and retirement goals, fostering financial independence and security for a brighter future.
         </p>
       </div>
@@ -138,9 +138,9 @@
 <section class="py-20 bg-gradient-to-br from-primary to-primary-dark text-white">
   <div class="container mx-auto px-4">
     <div class="max-w-3xl mx-auto text-center">
-      <div class="text-6xl mb-6">✓</div>
-      <h2 class="text-3xl md:text-4xl font-bold mb-4">Licensed & Regulated</h2>
-      <p class="text-xl text-blue-100 mb-8">
+      <div class="text-6xl mb-6 text-gray-600">✓</div>
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-600">Licensed & Regulated</h2>
+      <p class="text-xl text-gray-500 mb-8">
         254TrueCare SACCO is licensed and regulated by the SACCO Societies Regulatory Authority (SASRA), ensuring the highest standards of governance, financial management, and member protection.
       </p>
       <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6 inline-block">
